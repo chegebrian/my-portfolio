@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
-  <body class="bg-gradient-to-b from-[#0A0F1C] to-[#1B1F2F] bg-no-repeat min-h-screen text-slate-50">
+  <body
+    class="bg-gradient-to-b from-[#0A0F1C] to-[#1B1F2F] bg-no-repeat min-h-screen text-slate-50"
+  >
+    <!-- header -->
     <header
-      class="flex md:flex-row gap-4 items-start flex-col md:items-center justify-around px-4 py-7"
+      class="flex md:flex-row gap-4 items-start flex-col sticky top-0 md:items-center justify-around px-4 py-7 bg-[#0A0F1C]/80 backdrop-blur-md"
     >
       <span>logo</span>
       <nav>
@@ -24,28 +27,134 @@
         </ul>
       </nav>
       <button
-        class="border border-amber-300 py-1 cursor-pointer px-4 rounded-full"
+        class="border border-blue-600 py-1 cursor-pointer px-4 rounded-full"
       >
         darkmode
       </button>
     </header>
+    <!-- main -->
     <main>
-      <section>
-        <h1>I Build Code That Powers Experiences.</h1>
+      <!-- hero section -->
+      <section class="text-center">
+        <h1 class="font-bold text-5xl">
+          I Build Code That Powers Experiences.
+        </h1>
         <p>
           From sleek interfaces to scalable systems, I turn complex problems
           into elegant solutions.
         </p>
         <div>
-          <button class="rounded-md border border-amber-300 px-2 py-1"><a href="./src/pages/projects.html">view my work</a></button>
+          <button
+            class="rounded-md outline-0 bg-blue-600 hover:bg-blue-500 font-semibold px-4 py-2 text-sm capitalize"
+          >
+            <a href="./src/pages/projects.html">view my work</a>
+          </button>
           <!-- <a href="./src/pages/projects.html" class="rounded-md border border-amber-300 px-2 py-1">view my work</a> -->
-          <button class="rounded-md border border-amber-300 px-2 py-1">
+          <button
+            class="rounded-md border border-blue-600 hover:bg-blue-100 bg-blue-50 text-blue-600 font-semibold outline-0 px-4 py-2 text-sm capitalize"
+          >
             <a href="./src/pages/contact.html">let's build together</a>
           </button>
         </div>
       </section>
+      <!-- about section -->
+      <section>
+        <img src="./images/user.png" alt="user-image" class="w-32" />
+        <div>
+          <h2 class="capitalize text-3xl font-bold">about me</h2>
+          <p>
+            Hi, i'm Brian - a software developer who loves crafting interactive
+            and timeless digital experiences. I enjoy turning ideas into clean,
+            scalable products that fee intuitive and human. When i'm not coding,
+            i'm exploring design, learning new tools and finding ways to make
+            technology more creative and approachable.
+          </p>
+          <button
+            class="rounded-md outline-0 bg-blue-600 hover:bg-blue-500 font-semibold px-4 py-2 text-sm capitalize"
+          >
+            <a href="./src/pages/about.html">learn more</a>
+          </button>
+        </div>
+      </section>
+      <!-- projects section -->
+      <section>
+        <h2 class="capitalize text-3xl font-bold">featured projects</h2>
+        <div class="flex items-center justify-between">
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110"
+          >
+            <img src="./images/projector.png" alt="" class="w-24" />
+            <div>
+              <h3>project 1</h3>
+              <p class="text-gray-400">tech stack: html, css</p>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110"
+          >
+            <img src="./images/projector (1).png" alt="" class="w-24" />
+            <div>
+              <h3>project 2</h3>
+              <p class="text-gray-400">tech stack: html, css</p>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110 hover:shadow-lg"
+          >
+            <img src="./images/projection (2).png" alt="" class="w-24" />
+            <div>
+              <h3>project 3</h3>
+              <p class="text-gray-400">tech stack: html, css</p>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section -->
+      <section>
+        <h3 class="capitalize text-3xl font-bold">skills and tech stack</h3>
+        <button
+          class="rounded-md outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+        >
+          html
+        </button>
+        <button
+          class="rounded-md outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+        >
+          css
+        </button>
+        <button
+          class="rounded-md outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+        >
+          javascript
+        </button>
+      </section>
+
+      <!-- cta section -->
+      <section class="bg-gradient-to-r from-blue-700 to-blue-800 text-center">
+        <p class="text-3xl font-semibold">let's build something great together</p>
+        <button
+          class="rounded-md outline-0 bg-blue-50 hover:bg-blue-100 text-blue-600 font-semibold px-4 py-2 text-sm capitalize"
+        >
+          <a href="./src/pages/about.html">contact</a>
+        </button>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="bg-[#0A0F1C] text-gray-400">
+      <p>footer</p>
+    </footer>
     <script type="module" src="main.js"></script>
   </body>
 </html>
+
+<!-- <a href="https://www.flaticon.com/free-icons/projector" title="projector icons">Projector icons created by Freepik - Flaticon</a> -->
