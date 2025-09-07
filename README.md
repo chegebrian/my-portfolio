@@ -36,8 +36,7 @@ personal-portfolio/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/personal-portfolio.git
-
+git clone https://github.com/chegebrian/my-portfolio.git
 # Navigate to project folder
 cd personal-portfolio
 
@@ -83,6 +82,6 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 **Brian Waithaka**  
-- Portfolio: [your-portfolio-link](https://your-portfolio.com)  
-- GitHub: [@your-username](https://github.com/your-username)  
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-link)  
+- Portfolio: (https://github.com/chegebrian/my-portfolio)  
+- GitHub: (https://github.com/chegebrian)  
+
