@@ -1,11 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio-Projects</title>
+  </head>
+  <body
+    class="bg-gradient-to-b from-[#0A0F1C] to-[#1B1F2F] bg-no-repeat min-h-screen text-slate-50"
+  >
+    <!-- header -->
+    <header class="z-50 sticky top-0 bg-[#0A0F1C]/80 backdrop-blur-md">
+      <div
+        class="flex md:flex-row gap-4 items-start flex-col md:items-center md:justify-between md:mx-auto px-4 py-7 max-w-5xl"
+      >
+        <span>logo</span>
+        <nav>
+          <ul
+            class="flex md:flex-row flex-col items-start md:items-center gap-4"
+          >
+            <li class="capitalize font-semibold cursor-pointer"><a href="/">home</a></li>
+            <li class="capitalize font-semibold cursor-pointer"><a href="./src/pages/about.html">about</a></li>
+            <li class="capitalize font-semibold cursor-pointer"><a href="./src/pages/projects.html">projects</a></li>
+            <li class="capitalize font-semibold cursor-pointer"><a href="./src/pages/contact.html">contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="border border-blue-600 py-1 cursor-pointer px-4 rounded-full"
+        >
+          darkmode
+        </button>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="max-w-5xl mx-auto px-4">
+      <!-- hero section -->
+      <section
+        class="text-center h-96 flex flex-col items-center justify-center gap-10"
+      >
+        <div>
+          <!-- <p class="">software developer</p> -->
+          <h1 class="font-bold text-5xl">
+            I Build Code That Powers Experiences.
+          </h1>
+          <p class="mt-2">
+            From sleek interfaces to scalable systems, I turn complex problems
+            into elegant solutions.
+          </p>
+        </div>
+        <div class="flex items-center gap-4">
+          <button
+            class="rounded-md outline-0 bg-blue-600 hover:bg-blue-500 font-semibold px-4 py-2 text-sm capitalize"
+          >
+            <a href="./src/pages/projects.html">view my work</a>
+          </button>
+          <!-- <a href="./src/pages/projects.html" class="rounded-md border border-amber-300 px-2 py-1">view my work</a> -->
+          <button
+            class="rounded-md border border-blue-600 hover:bg-blue-100 bg-blue-50 text-blue-600 font-semibold outline-0 px-4 py-2 text-sm capitalize"
+          >
+            <a href="./src/pages/contact.html">let's build together</a>
+          </button>
+        </div>
+      </section>
+      <!-- about section -->
+      <section>
+        <!-- <h2 class="capitalize text-3xl font-bold">about me</h2> -->
+        <div class="grid sm:grid-cols-2 items-center gap-4 justify-center">
+          <img src="./images/user.png" alt="user-image" class="w-48" />
+          <div class="flex flex-col gap-4">
+            <h3 class="capitalize text-2xl font-bold">about me</h3>
+            <p>
+              Hi, i'm Brian - a software developer who loves crafting
+              interactive and timeless digital experiences. I enjoy turning
+              ideas into clean, scalable products that feel intuitive and human.
+              When i'm not coding, i'm exploring design, learning new tools and
+              finding ways to make technology more creative and approachable.
+            </p>
+            <button
+              class="rounded-md outline-0 w-max bg-blue-600 hover:bg-blue-500 font-semibold px-4 py-2 text-sm capitalize"
+            >
+              <a href="./src/pages/about.html">learn more</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- projects section -->
+      <section class="my-6">
+        <div
+          class="flex sm:items-center justify-center items-start flex-col gap-3"
+        >
+          <h2 class="capitalize text-3xl font-bold">featured projects</h2>
+          <button
+            class="rounded-md outline-0 hover:bg-blue-500 font-semibold px-4 py-2 text-sm capitalize"
+          >
+            <a href="./src/pages/projects.html">view all projects</a>
+          </button>
+        </div>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 my-6">
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110 hover:shadow-lg"
+          >
+            <img src="./images/projector.png" alt="" class="w-24" />
+            <div>
+              <div>
+                <h3>project 1</h3>
+                <p class="text-gray-400">tech stack: html, css</p>
+              </div>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110 hover:shadow-lg"
+          >
+            <img src="./images/projector (1).png" alt="" class="w-24" />
+            <div>
+              <h3>project 2</h3>
+              <p class="text-gray-400">tech stack: html, css</p>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-gray-800 p-6 rounded-lg text-gray-200 shadow-blue-600 shadow-sm hover:scale-110 hover:shadow-lg"
+          >
+            <img src="./images/projection (2).png" alt="" class="w-24" />
+            <div>
+              <h3>project 3</h3>
+              <p class="text-gray-400">tech stack: html, css</p>
+              <button class="text-sm capitalize text-blue-400 hover:underline">
+                <a href="./src/pages/projects.html">view</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section -->
+      <section>
+        <div class="text-center">
+          <h3 class="capitalize text-3xl font-bold mb-6">
+            skills and tech stack
+          </h3>
+          <button
+            class="rounded-full outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+          >
+            html
+          </button>
+          <button
+            class="rounded-full mx-4 outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+          >
+            css
+          </button>
+          <button
+            class="rounded-full outline-0 bg-gray-800 hover:bg-gray-700 text-gray-400 font-semibold px-4 py-2 text-xl capitalize"
+          >
+            javascript
+          </button>
+        </div>
+      </section>
+      <!-- cta section -->
+      <section class="my-6 flex flex-col ">
+        <!-- <p class="text-3xl font-semibold"></p> -->
+        <button
+          class="rounded-md outline-0 bg-blue-50 hover:bg-blue-100 text-blue-600 font-semibold px-4 py-2 text-sm capitalize"
+        >
+          <a href="./src/pages/contact.html"
+            >let's build something great together</a
+          >
+        </button>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-[#0A0F1C]/80 backdrop-blur-md text-gray-400 sm:h-28">
+      <div
+        class="max-w-5xl flex flex-col sm:flex-row items-center justify-between sm:py-0 sm:px-4 gap-6 p-6 sm:text-sm/28 mx-auto"
+      >
+        <p class="">&copy; 2025 Brian Waithaka. software Developer.</p>
+        <p class="">Github . Linkedin . Email</p>
+      </div>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>

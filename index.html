@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/my-logo.png" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
@@ -15,15 +15,29 @@
       <div
         class="flex md:flex-row gap-4 items-start flex-col md:items-center md:justify-between md:mx-auto px-4 py-7 max-w-5xl"
       >
-        <span>logo</span>
+        <a href="/"
+          ><img
+            src="./images/my-logo.png"
+            alt="logo"
+            class="w-24 h-24 rounded-full"
+        /></a>
+
         <nav>
           <ul
             class="flex md:flex-row flex-col items-start md:items-center gap-4"
           >
-            <li class="capitalize font-semibold cursor-pointer">home</li>
-            <li class="capitalize font-semibold cursor-pointer">about</li>
-            <li class="capitalize font-semibold cursor-pointer">projects</li>
-            <li class="capitalize font-semibold cursor-pointer">contact</li>
+            <li class="capitalize font-semibold cursor-pointer">
+              <a href="/">home</a>
+            </li>
+            <li class="capitalize font-semibold cursor-pointer">
+              <a href="./src/pages/about.html">about</a>
+            </li>
+            <li class="capitalize font-semibold cursor-pointer">
+              <a href="./src/pages/projects.html">projects</a>
+            </li>
+            <li class="capitalize font-semibold cursor-pointer">
+              <a href="./src/pages/contact.html">contact</a>
+            </li>
           </ul>
         </nav>
         <button
@@ -163,7 +177,7 @@
         </div>
       </section>
       <!-- cta section -->
-      <section class="my-6 flex flex-col ">
+      <section class="my-6 flex flex-col">
         <!-- <p class="text-3xl font-semibold"></p> -->
         <button
           class="rounded-md outline-0 bg-blue-50 hover:bg-blue-100 text-blue-600 font-semibold px-4 py-2 text-sm capitalize"
