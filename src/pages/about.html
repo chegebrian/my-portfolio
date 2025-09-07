@@ -50,15 +50,25 @@
 
     <!-- main -->
     <main class="max-w-5xl mx-auto px-4">
-      <section>
-        <img src="../../public/images/user.png" alt="logo" class="w-24" />
-        <h1 class="capitalize">hi, i'm brian waithaka</h1>
-        <p class="capitalize">
-          software developer | problem solver | tech enthusiast
-        </p>
+      <!-- hero section -->
+      <section class="flex items-center justify-start gap-6 h-96">
+        <img src="../../public/images/user.png" alt="logo" class="w-32" />
+        <div>
+          <h1 class="capitalize text-5xl font-bold flex items-center gap-4">
+            <img
+              src="../../public/images/flash.png"
+              alt="lightning-icon"
+              class="w-12 "
+            />hi, i'm brian waithaka
+          </h1>
+          <p class="capitalize mt-4">
+            software developer | problem solver | tech enthusiast
+          </p>
+        </div>
       </section>
-      <section>
-        <h2>about me</h2>
+      <!-- about section -->
+      <section class="border border-gray-400 rounded-lg p-8 bg-gray-800/50 backdrop-blur-lg">
+        <h2 class="capitalize mb-6 text-2xl font-bold">about me</h2>
         <p>
           I'm a passionate software developer who loves building clean,
           efficient and scalable applications. My focus is on crafting solutions
@@ -68,38 +78,70 @@
           robust backends.
         </p>
       </section>
-      <section>
-        <h2>skills & tools</h2>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <span>javascript</span>
+      <!-- skills section -->
+      <section class="my-32">
+        <h2 class="text-2xl font-bold capitalize mb-8">skills & tools</h2>
+        <div class="grid gap-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+          <div class="flex bg-gray-800/70 backdrop-blur-lg flex-col gap-4 items-center justify-center border border-gray-400 rounded-lg p-6">
+            <img
+              src="../../public/images/html-5-logo.png"
+              alt="html-logo"
+              class="w-12"
+            />
+            <span class="capitalize text-lg font-bold">html</span>
+          </div>
+          <div class="flex flex-col bg-gray-800/70 backdrop-blur-lg gap-4 items-center justify-center border border-gray-400 rounded-lg p-6">
+            <img
+              src="../../public/images/css-3.png"
+              alt="css-logo"
+              class="w-12"
+            />
+            <span class="capitalize text-lg font-bold">css</span>
+          </div>
+          <div class="flex flex-col bg-gray-800/70 backdrop-blur-lg gap-4 items-center justify-center border border-gray-400 rounded-lg p-6">
+            <img
+              src="../../public/images/icons8-tailwind-css.svg"
+              alt="tailwind css-logo"
+              class="w-12"
+            />
+            <span class="capitalize text-lg font-bold">tailwind css</span>
+          </div>
+          <div class="flex flex-col gap-4 bg-gray-800/70 backdrop-blur-lg items-center justify-center border border-gray-400 rounded-lg p-6">
+            <img
+              src="../../public/images/js-logo.png"
+              alt="javascript-logo"
+              class="w-12"
+            />
+            <span class="capitalize text-lg font-bold">javascript</span>
           </div>
         </div>
       </section>
+      <!-- experience section -->
       <section>
-        <h2>experience</h2>
+        <h2 class="capitalize font-bold text-2xl">experience & education</h2>
         <div>
-          <h3>xyz</h3>
-          <span>year</span>
-          <p>....</p>
+          <h3 class="capitalize text-lg font-semibold">moringa school</h3>
+          <span class="text-gray-400 capitalize">2025 - present</span>
+          <p class="mt-4">Currently a student a Moringa School, studying software engineering.</p>
         </div>
       </section>
-      <section>
-        <h2>beyond the code</h2>
+      <!-- beyond section -->
+      <section class="border border-gray-400 p-6 rounded-lg my-32 bg-gray-800/50 backdrop-blur-lg">
+        <h2 class="capitalize font-bold text-2xl mb-6">beyond the code</h2>
         <p>
           When i'm not coding, you'll probably find me exploring tech blogs or
           enjoying music. I believe in continous learning and love sharing
           knowledge with the community.
         </p>
       </section>
-      <section>
-        <h3>let's connect</h3>
+      <!-- cta section -->
+      <section class="text-center mb-32 justify-center items-center flex flex-col gap-6">
+        <h2 class="capitalize text-2xl font-bold">let's connect</h2>
         <p>
           I'm always open to interesting projects, collaborations or just a
           friendly chat.
         </p>
-        <button>Get in touch</button>
+        <a href="./contact.html" class="py-3 px-6 rounded-lg bg-gray-800/70 hover:bg-gray-900 backdrop-blur-lg max-w-fit border border-gray-400 outline-0">Get in touch</a>
       </section>
     </main>
 
