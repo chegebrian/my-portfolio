@@ -6,20 +6,23 @@ This project showcases projects, skills, and experience in a clean and professio
 ---
 
 ## 🚀 Features
-- Responsive design optimized for desktop and mobile  
-- Fast build and development with Vite  
-- Easy to customize content and styling  
-- Sections for projects, about, and contact  
+
+- Responsive design optimized for desktop and mobile
+- Fast build and development with Vite
+- Easy to customize content and styling
+- Sections for projects, about, and contact
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript  
-- **Build Tool:** Vite  
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Build Tool:** Vite
 
 ---
 
 ## 📂 Project Structure
+
 ```
 personal-portfolio/
 ├── index.html       # Main entry point
@@ -53,35 +56,38 @@ npm run build
 ---
 
 ## 📸 Demo Screenshot
+
 ![Demo Screenshot](./screenshots/demo.png)
 
-*(Place your screenshot inside a `screenshots` folder in the project root.)*
-
----
 
 ## 🌐 Live Demo
-[View Demo](https://your-live-demo-link.com)
+
+[View Demo](https://my-portfolio-two-sand-19.vercel.app/)
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome!  
-1. Fork the project  
-2. Create a feature branch (`git checkout -b feature-name`)  
-3. Commit your changes (`git commit -m 'Add feature'`)  
-4. Push to the branch (`git push origin feature-name`)  
-5. Open a Pull Request  
+
+Contributions are welcome!
+
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
 
 ---
 
 ## 📜 License
+
 This project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
-**Brian Waithaka**  
-- Portfolio: (https://github.com/chegebrian/my-portfolio)  
-- GitHub: (https://github.com/chegebrian)  
 
+**Brian Waithaka**
+
+- Portfolio: (https://github.com/chegebrian/my-portfolio)
+- GitHub: (https://github.com/chegebrian)
