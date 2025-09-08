@@ -62,7 +62,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-[View Demo](https://my-portfolio-two-sand-19.vercel.app/)
+[View Demo](https://chegebrian.github.io/my-portfolio/)
 
 ---
 
